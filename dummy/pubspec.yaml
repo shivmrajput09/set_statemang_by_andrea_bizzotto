@@ -1,0 +1,31 @@
+name: dummy
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # --- State Management & Freezed Dependencies ---
+  provider: ^6.1.2
+  flutter_state_notifier: ^1.0.0
+  state_notifier: ^1.0.0
+  freezed_annotation: ^2.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+  # --- Code Generation Dependencies (Dev Only) ---
+  build_runner: ^2.4.9
+  freezed: ^2.5.2
+
+flutter:
+  uses-material-design: true
